@@ -7,3 +7,4 @@ This game is a student copy, and the other players are robots
 The game code technology is written by students independently, and does not involve decompilation and copyright issues
 If you are interested and have a good command of English, you can send your translated game code like SunLightStudio2022@outlook.com
 Thanks to the use, we'll continue to improve the main .cpp to make the code easier to read, and we'll bring more simple games written by students.
+The game is written in DevC++, you can directly open the dev file, compile and run, the author uses devC+++5.11 gcc 4.9-64bit Realems to compile the file size is 1.960280418396 MiB
