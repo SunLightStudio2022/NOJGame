@@ -3,18 +3,28 @@
 #include <windows.h>
 #include <time.h>
 using namespace std;
-HANDLE hCon;enum Color { DARKBLUE = 1, DARKGREEN, DARKTEAL, DARKRED, DARKPINK, DARKYELLOW, GRAY, DARKGRAY, BLUE, GREEN, TEAL, RED, PINK, YELLOW, WHITE };
+HANDLE hCon;
+enum Color { 
+    DARKBLUE = 1, DARKGREEN, DARKTEAL, DARKRED, DARKPINK, DARKYELLOW, GRAY, DARKGRAY, BLUE, GREEN, TEAL, RED, PINK, YELLOW, WHITE 
+};
 void SetColor(Color c) {
-if(hCon == NULL)
-    hCon = GetStdHandle(STD_OUTPUT_HANDLE);
-SetConsoleTextAttribute(hCon, c);
-}
-#define sc SetColor
-void SetPos(COORD a) { HANDLE out=GetStdHandle(STD_OUTPUT_HANDLE);
- SetConsoleCursorPosition(out, a);} 
- void SetPos(short i, short j) { COORD pos={i, j}; SetPos(pos); } 
-char gm[21][21];long long start,sk;
-char press;int x,y,score;bool win;
+    if(hCon == NULL)
+       hCon = GetStdHandle(STD_OUTPUT_HANDLE);
+       SetConsoleTextAttribute(hCon, c);
+    }
+    #define sc SetColor
+    void SetPos(COORD a) { HANDLE out=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleCursorPosition(out, a);
+}                          
+void SetPos(short i, short j) { 
+    COORD pos={i, j};
+    SetPos(pos); 
+} 
+char gm[21][21];
+long long start,sk;
+char press;
+int x,y,score;
+bool win;
 void chuangzao(){
     srand(time(0));int k;
     for(int i=0;i<21;i++){
