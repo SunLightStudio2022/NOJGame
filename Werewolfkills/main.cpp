@@ -331,4 +331,163 @@ int main() {
 		printhhh(); return 0; 
 	}
 	if (player[lieren].life == 0 && lr == 0) { 
-		panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(3, 0); system("cls"); print(3, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } cout << "即将进入夜晚"; for (int i = 1; i <= 6; i++) { cout << "."; Sleep(500); } night2(3, 1); print1(); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } if (player[lieren].life == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(4, 0); system("cls"); print(4, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } cout << "即将进入夜晚"; for (int i = 1; i <= 6; i++) { cout << "."; Sleep(500); } night2(4, 1); print1(); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } if (player[lieren].life == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(5, 0); system("cls"); print(5, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } cout << "即将进入夜晚"; for (int i = 1; i <= 6; i++) { cout << "."; Sleep(500); } night2(5, 1); print1(); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } if (player[lieren].life == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(6, 0); system("cls"); print(6, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } cout << "即将进入夜晚"; for (int i = 1; i <= 6; i++) { cout << "."; Sleep(500); } night2(6, 1); print1(); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } if (player[lieren].life == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(7, 0); system("cls"); print(7, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } while (1) system("pause"); return 0; }
+		panduanlieren(); 
+	} 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} 
+	toupiao(3, 0); 
+	system("cls"); 
+	print(3, 0); 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh();
+		return 0;
+	} else if (player[lieren].life == 0 && lr == 0) { 
+		panduanlieren(); 
+	} 
+	cout << "即将进入夜晚"; 
+	for (int i = 1; i <= 6; i++) { 
+		cout << "."; 
+		Sleep(500); 
+	} 
+	night2(3, 1); 
+	print1(); 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} if (player[lieren].life == 0) {
+		panduanlieren();
+	} if (game_over()) {
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl;
+		printhhh();
+		return 0;
+	} 
+	toupiao(4, 0);
+	system("cls");
+	print(4, 0);
+	if (game_over()) {
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} else if (player[lieren].life == 0 && lr == 0) { 
+		panduanlieren(); 
+	} if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} 
+	cout << "即将进入夜晚"; 
+	for (int i = 1; i <= 6; i++) { 
+		cout << "."; 
+		Sleep(500); 
+	} 
+	night2(4, 1); 
+	print1(); 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} 
+	if (player[lieren].life == 0) { 
+		panduanlieren(); 
+	} 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} 
+	toupiao(5, 0); 
+	system("cls"); 
+	print(5, 0); 
+	if (game_over()) { 
+		Sleep(1000); 
+		system("cls"); 
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0;
+	} else if (player[lieren].life == 0 && lr == 0) {
+		panduanlieren(); 
+	} if (game_over()) { 
+		Sleep(1000); 
+		system("cls");
+		cout << "游戏结束" << endl; 
+		printhhh(); 
+		return 0; 
+	} cout << "即将进入夜晚"; 
+	for (int i = 1; i <= 6; i++) { 
+		cout << "."; 
+		Sleep(500); 
+	} 
+	night2(5, 1); 
+	print1();
+	if (game_over()) {
+		Sleep(1000); 
+		system("cls");
+		cout << "游戏结束" << endl;
+		printhhh(); return 0;
+	}
+	if (player[lieren].life == 0) {
+		panduanlieren();
+	} if (game_over()) {
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl;
+		printhhh();
+		return 0;
+	} 
+	toupiao(6, 0);
+	system("cls");
+	print(6, 0);
+	if (game_over()) {
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl;
+		printhhh();
+		return 0;
+	} else if (player[lieren].life == 0 && lr == 0) {
+		panduanlieren();
+	} 
+	if (game_over()) {
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl; 
+		printhhh(); return 0;
+	} 
+	cout << "即将进入夜晚"; 
+	for (int i = 1; i <= 6; i++) {
+		cout << ".";
+		Sleep(500);
+	} 
+	night2(6, 1);
+	print1(); 
+	if (game_over()) { 
+		Sleep(1000);
+		system("cls");
+		cout << "游戏结束" << endl; 
+		printhhh();
+		return 0; 
+	} 
+	if (player[lieren].life == 0) { 
+		panduanlieren();
+	} 
+	if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } toupiao(7, 0); system("cls"); print(7, 0); if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } else if (player[lieren].life == 0 && lr == 0) { panduanlieren(); } if (game_over()) { Sleep(1000); system("cls"); cout << "游戏结束" << endl; printhhh(); return 0; } while (1) system("pause"); return 0; }
