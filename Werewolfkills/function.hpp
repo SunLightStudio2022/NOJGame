@@ -324,3 +324,41 @@ void toupiao(int ddd, int nnn) {
 	} 
 	Sleep(5000); 
 }
+bool lr = 0; 
+void panduanlieren() { 
+	if (lr == 1) return; 
+	if (MY == lieren) { 
+		cout << "请射杀一名玩家" << endl; 
+		int x; cin >> x; 
+		while (player[x].life != 1) { 
+			cout << "输入错误,请重新输入" << endl; 
+			cin >> x; 
+		} 
+		Sleep(1000); 
+		cout << lieren << "号猎人发动技能,开枪带走了" << x << "号" << endl; 
+		player[x].life = 0; 
+		player[x].how = 4; 
+	} else if (n >= 9) { 
+		srand(time(0)); 
+		int x = rand() % n + 1;
+		while (player[x].life != 1) {
+			x = rand() % n + 1; 
+		} 
+		Sleep(1000); 
+		cout << lieren << "号猎人发动技能,开枪带走了" << x << "号" << endl; 
+		player[x].life = 0; 
+		player[x].how = 4; 
+	} 
+	lr = 1;
+} 
+void print1() { 
+	cout << "天亮了,昨晚";
+	if (kill1 != 0 || kill2 != 0) {
+		cout << kill1 << "号";
+		if (kill2 != 0) {
+			cout << "," << kill2 << "号";
+			kill2 = 0;
+		} 
+		cout << "被杀" << endl; 
+	} else cout << "是平安夜" << endl; 
+} 
