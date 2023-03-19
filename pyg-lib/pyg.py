@@ -5,6 +5,7 @@ except:
     os.system("pip3 install pygame -i https://pypi.tuna.tsinghua.edu.cn/simple some-package")
     import pygame
 screen=0
+IMG_VAR={}
 def pyg_doc(doc):
     global screen
     if doc[0]=="init":
@@ -24,9 +25,7 @@ def pyg_doc(doc):
             (int(doc[4]),int(doc[5])),\
             int(doc[6])\
         )
-        pygame.display.update()
-
-
+        pygame.display.update() 
     pass
 def pyg_cmd(cmd):
     cmd_a=cmd.split(" ")
@@ -45,5 +44,11 @@ def pyg_cmd(cmd):
 #cicle  红 黄 蓝 
 pyg_cmd("init title 500 500 ")
 pyg_cmd("circle 255 0 0 30 40 20")
+
+pic = pygame.image.load("test.jpg")
+screen.blit(pic,(100,100))
+pygame.display.update()
+
 input()
 pyg_cmd("quit")
+
